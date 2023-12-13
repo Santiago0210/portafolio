@@ -32,7 +32,7 @@ function App() {
           <p className='aboutme__p' align="justify">
             Soy desarrollador <strong>
               <font color="white">
-                Front-end </font>
+                Full-Stack </font>
             </strong>
             me llamo Santiago Valle, tengo 28 años de edad, resido en la ciudad de Machala, Ecuador,
             me apasiona el mundo de la programación, por ende me encuentro
@@ -42,7 +42,7 @@ function App() {
 
         </div>
         <div className='item__download'>
-          <a href='/cv programacion.pdf' className="btn"> <button className='btn__cv'>
+          <a href='/cv.pdf' className="btn"> <button className='btn__cv'>
             Descargar CV</button>
           </a>
         </div>
@@ -57,6 +57,7 @@ function App() {
           <img className='abilities__items html' src="/html.png" alt="" />
           <img className='abilities__items react' src="/react.png" alt="" />
           <img className='abilities__items js' src="/js.jpg" alt="" />
+          <img className='abilities__items node' src="/node.png" alt="" />
         </div>
 
         <div className='tittle proyectos'>
@@ -137,9 +138,7 @@ function App() {
             <a href="https://wa.link/7o05af">
               <img src="/whatsapp.svg" alt="" />
             </a>
-            <a href="https://twitter.com/Dangerous99999">
-              <img src="/twitter.svg" alt="" />
-            </a>
+            
             <a href="https://app.netlify.com/teams/santiago0210/overview">
               <img  src="/netlify.png" alt="" />
             </a>
